@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700 |Exo:100,200,300,400,500,600,700');
+
+
+
+/*----------------------------------header---------------------*/
+
+header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.mainheading {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+.mainheading:hover {
+    text-decoration: none;
+    color: #f21717;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+.heading {
+    text-align: center;
+    margin: 1rem 0 1rem 0;
+    text-decoration: none;
+}
+
+
+
+#nav li {
+    font-size: 18px;
+    padding: 0;
+    margin: 2rem 0 0 0;
+    text-align: center;
+}
+
+#nav li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.5s;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+
+#nav li a:hover {
+    color: #f21717;
+}
+
+
+
+.logo {
+    background-image: url('/assets/images/cover2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
