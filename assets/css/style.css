@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700 |Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 body {
-   font-family: 'Roboto', sans-serif; 
+    font-family: 'Inconsolata', sans-serif;
+}
+
+
+h5,
+h3 {
+    font-weight: bold;
 }
 
 /*----------------------------------header---------------------*/
 
 header {
+    background-color: #f0a6c9;
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .mainheading {
@@ -23,7 +29,7 @@ header {
 
 .mainheading:hover {
     text-decoration: none;
-    color: #f21717;
+    color: #b0cf05;
 }
 
 .list-inline-item:not(:last-child) {
@@ -59,26 +65,42 @@ header {
 }
 
 #nav li a:hover {
-    color: #f21717;
+    color: #b0cf05;
 }
 
+/*--------------------------------------------section----------------------*/
+
+section {
+    height: 660px;
+    background: url(/assets/images/album2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.success {
+    text-align: center;
+    color: white;
+    margin-top:  20px;
+}
 
 
 /*----------------------------------------------footer----------------------*/
 
 footer {
+    padding: 0;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #f0a6c9;
+    text-align:center;
 }
 
 
-footer h3 {
-    text-align: center;
+footer h3{
+    margin-top: 20px;
 }
 
-.social-links {
-    text-align: center;
-}
 
 .social-links li a i {
     font-size: 30px;
@@ -93,5 +115,5 @@ footer h3 {
 
 
 .social-links li a i:hover {
-    color: #f21717;
+    color: #b0cf05;
 }
