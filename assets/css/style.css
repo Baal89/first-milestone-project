@@ -70,19 +70,12 @@ header {
 
 /*--------------------------------------------section----------------------*/
 
-section {
-    height: 660px;
-    background: url(/assets/images/album2.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+
 
 
 .success {
     text-align: center;
-    color: white;
+    color: whit;
     margin-top:  20px;
 }
 
@@ -105,7 +98,7 @@ footer h3{
 .social-links li a i {
     font-size: 30px;
     padding: 20px;
-    margin: 20px;
+    margin: 20px 20px 0 20px;
     color: black;
     transition: color 0.5s;
     -webkit-transition: color 0.5s;
@@ -117,3 +110,20 @@ footer h3{
 .social-links li a i:hover {
     color: #b0cf05;
 }
+
+
+
+
+
+/*----------------------------the band page-----------------------*/
+
+section {
+    padding:0;
+    margin:0;
+}
+.members {
+    text-align: center;
+    padding:20px;
+}
+
+
