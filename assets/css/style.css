@@ -157,3 +157,20 @@ footer h3{
 }
 
 
+/*----------------------------Gallery----------------------*/
+
+
+.pic {
+    width:280px;
+    height: 150px;
+}
+
+.album {
+    height: 600px
+}
+
+
+.main-article {
+    padding-top: 25px;
+    margin-bottom: 45px;
+}
