@@ -71,11 +71,9 @@ header {
 
 /*--------------------------------------------section----------------------*/
 
-
 section {
-    padding:0;
-    margin:0;
-    background-color: #b0cf05;
+    padding: 0;
+    margin: 0;
 }
 
 .success {
@@ -84,46 +82,64 @@ section {
 }
 
 .success h5 {
-    padding-top: 15px;
+    padding-top: 25px;
 }
 
 .success p {
-    padding-top:20px;
+    margin: 20px;
+    padding: 20px;
 }
 
 
-.main-section {
-    padding-top: 65px;
-    margin: auto 0;
+.bottom-heading p {
+    padding: 30px;
+    margin-bottom: 30px;
 }
 
-
-.main-section p {
-    margin: 20px 0;
-}
-
-.main-section h5 {
+.bottom-heading h5 {
     text-align: center;
 }
 
+.bottom-heading {
+    margin-top: 60px;
+    padding-top: 60px;
+}
 
-@media (max-width: 768px) {
-    .center{
-        width: 330px;
+
+@media only screen and (min-width: 360px) {
+    .center-block {
+        width: 360px;
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .center-block {
+        width: 720px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .center-block {
+        width: 960px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .center-block {
+        width: 1140px;
+    }
+}
 /*----------------------------------------------footer----------------------*/
 
 footer {
     padding: 0;
     margin: 0;
     background-color: #f0a6c9;
-    text-align:center;
+    text-align: center;
 }
 
 
-footer h3{
+footer h3 {
     margin-top: 20px;
 }
 
@@ -152,20 +168,24 @@ footer h3{
 
 .members {
     margin: 25px 0;
-    padding:0 35px;
+    padding: 0 35px;
 }
 
-  
+
 .singer {
     text-align: right;
 }
 
+@media only screen and (max-witdh: 375px) {
+    .members{
+        text-align: center;
+    }
+}
 
 /*----------------------------Gallery----------------------*/
 
-
 .pic {
-    width:320px;
+    width: 320px;
     height: 180px;
 }
 
@@ -185,12 +205,11 @@ footer h3{
 
 /*----------------------------------contact us -------------------------*/
 
-
 .detail {
     padding: 30px;
 }
 
 .alternative {
     margin-top: 45px;
-    padding-top:45px;
+    padding-top: 45px;
 }
