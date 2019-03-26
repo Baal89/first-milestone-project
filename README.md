@@ -4,7 +4,7 @@
 
 ## direct links:
 
-1. [Github repository](https://github.com/Baal89/first-milestone-project)
+1. [GitHub repository](https://github.com/Baal89/first-milestone-project)
 2. [deployed site](https://baal89.github.io/first-milestone-project/)
 
 ## Project's name
@@ -85,31 +85,35 @@ the site with different screen size.
 
 1) as a fan I want to see their new video so I can always watch my favourite band.
    - `go to index.hmtl to see the latest video of the band`
+   
 2) as a potential fan I want to listen some of their music so I can confirm they are really amazing.
    - `go to Gallery page`.
    - `click on of the play button to listen their music`.
+   
 3) as a fan I want to follow my favourite band on the new social media they got.
    - `go in any page in the footer section and click the social media icon`.
+   
 4) as a fan I want to check the band history and members so I can know better my favourite band.
-   - `go in the band page and read about the band`
+   - `go in the band page and read about the band`.
+   
 6) as a event planner I want to contact them to play live at an event I am organising.
    - `go in the contact page`
    - `fill out all fields in the form`
    - `click send`
-   - `all fields need to be fill out if not users’ will see alert"please fill out this field"`
+   - `all fields need to be fill out if not users’ will see alert “please fill out this field"`
 
 ## Deployment   
 
-I used the folowing steps to deploy the site:
+I used the following steps to deploy the site:
    1. Initialised the local directory in my project with `git init`.
    2. Added the files in the local repository created with `git add .` .
-   3. Commited the files that I have staged in the local repository with `git commit -m`.
-   4. I have created an empty repository in Github.
+   3. Committed the files that I have staged in the local repository with `git commit -m`.
+   4. I have created an empty repository in GitHub.
    5. I copied from GitHub the following path and I have run it in the cloud9 terminal `git remote add origin https://github.com/Baal89/first-milestone-project`.
    6. I moved my local repository to GitHub with `git push -u origin master`.
    7. finally I have gone to the settings, I have selected the master branch, I have saved and the website was published.
    
-here there are  links for the [Github repository](https://github.com/Baal89/first-milestone-project)
+here there are  links for the [GitHub repository](https://github.com/Baal89/first-milestone-project)
 and for the [deployed site](https://baal89.github.io/first-milestone-project/).
 
 
@@ -117,7 +121,7 @@ and for the [deployed site](https://baal89.github.io/first-milestone-project/).
 
 ##### text
 
-- the text for the band section has been copied from [wikipedia](https://en.wikipedia.org/wiki/The_Monkees).
+- the text for the band section has been copied from [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees).
 - Peter Tork https://en.wikipedia.org/wiki/Peter_Tork
 - Davy Jones https://en.wikipedia.org/wiki/Micky_Dolenz
 - Michael Nesmith https://en.wikipedia.org/wiki/Michael_Nesmith

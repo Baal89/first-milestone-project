@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
-    font-family: 'Inconsolata', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -10,17 +10,16 @@ h3 {
     font-weight: bold;
 }
 
-
 /*----------------------------------header---------------------*/
 
 header {
-    background-color: #f0a6c9;
+    background-color: rgba(0,0,0,0);
     margin: 0;
     padding: 0;
 }
 
 .mainheading {
-    color: black;
+    color: white;
     text-decoration: none;
     transition: color 0.5s;
     -webkit-transition: color 0.5s;
@@ -30,20 +29,22 @@ header {
 
 .mainheading:hover {
     text-decoration: none;
-    color: #b0cf05;
+    color: blue;
 }
 
 .list-inline-item:not(:last-child) {
     margin: 0;
 }
 
-.menucontainer {
+.menucontainer  {
     font-size: 0;
+    color: white;
+    margin:0;
 }
 
 .heading {
     text-align: center;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0;
     text-decoration: none;
 }
 
@@ -52,12 +53,12 @@ header {
 #nav li {
     font-size: 22px;
     padding: 0;
-    margin: 2rem 0 0 0;
+    margin: 2rem 0 0;
     text-align: center;
 }
 
 #nav li a {
-    color: black;
+    color: white;
     text-decoration: none;
     transition: color 0.5s;
     -webkit-transition: color 0.5s;
@@ -66,19 +67,37 @@ header {
 }
 
 #nav li a:hover {
-    color: #b0cf05;
+    color: blue;
 }
 
 /*--------------------------------------------section----------------------*/
 
+
+.covers {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Believer {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+
 section {
     padding: 0;
     margin: 0;
+    background-image: url(../images/monkees.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center fixed;
+    background-attachment: fixed;
 }
 
 .success {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 0px;
 }
 
 .success h5 {
@@ -103,6 +122,7 @@ section {
 .bottom-heading {
     margin-top: 60px;
     padding-top: 60px;
+    color: white;
 }
 
 .bottom-heading a:hover{
@@ -137,9 +157,10 @@ section {
 /*----------------------------------------------footer----------------------*/
 
 footer {
+    color:white;
     padding: 0;
     margin: 0;
-    background-color: #f0a6c9;
+    background-color: black;
     text-align: center;
 }
 
@@ -153,7 +174,7 @@ footer h3 {
     font-size: 30px;
     padding: 20px;
     margin: 20px 20px 0 20px;
-    color: black;
+    color: white;
     transition: color 0.5s;
     -webkit-transition: color 0.5s;
     -moz-transition: color 0.5s;
@@ -162,7 +183,7 @@ footer h3 {
 
 
 .social-links li a i:hover {
-    color: #b0cf05;
+    color: blue;
 }
 
 
@@ -174,6 +195,7 @@ footer h3 {
 .members {
     margin: 25px 0;
     padding: 0 35px;
+    border-radius: 50%;
 }
 
 
@@ -182,7 +204,7 @@ footer h3 {
 }
 
 @media only screen and (max-witdh: 375px) {
-    .band {
+    .members{
         text-align: center;
     }
 }
@@ -229,3 +251,5 @@ footer h3 {
 .detail a:hover {
     text-decoration: none;
 }
+
+
