@@ -144,17 +144,19 @@ section {
     padding-top: 50px
 }
 
-@media( max-width: 400px){
-    .band{
-        text-align: center;
-    }
+.member {
+    padding: 20px;
 }
 
 .singer {
     text-align: right;
 }
 
-
+@media( max-width: 400px){
+    .band{
+        text-align: center;
+    }
+}
 
 /*----------------------------Gallery----------------------*/
 
