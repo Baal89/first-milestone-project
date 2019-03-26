@@ -15,7 +15,7 @@ h3 {
 header {
     background-color: rgba(0,0,0,0);
     margin: 0;
-    padding: 0;
+    padding-bottom: 30px;
 }
 
 .mainheading {
@@ -70,20 +70,13 @@ header {
     color: blue;
 }
 
-/*--------------------------------------------section----------------------*/
 
 
-.covers {
-    width: 100%;
-    box-sizing: border-box;
+/*--------------------------------------------section index.html----------------------*/
+
+.video {
+    padding: 90px 0;
 }
-
-.Believer {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin: 0px;
-}
-
 
 section {
     padding: 0;
@@ -91,22 +84,8 @@ section {
     background-image: url(../images/monkees.jpg);
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: center fixed;
+    background-position: center center;
     background-attachment: fixed;
-}
-
-.success {
-    text-align: center;
-    padding: 50px 0px;
-}
-
-.success h5 {
-    padding-top: 25px;
-}
-
-.success p {
-    margin: 20px;
-    padding: 20px;
 }
 
 
@@ -121,7 +100,7 @@ section {
 
 .bottom-heading {
     margin-top: 60px;
-    padding-top: 60px;
+    padding: 60px 0;
     color: white;
 }
 
@@ -190,24 +169,27 @@ footer h3 {
 
 
 
-/*----------------------------the band page---------------------*/
-
-.members {
-    margin: 25px 0;
-    padding: 0 35px;
+/*----------------------------the band.html---------------------*/
+.band img {
     border-radius: 50%;
 }
 
+.band {
+    color: white;
+    padding-top: 50px
+}
+
+@media( max-width: 400px){
+    .band{
+        text-align: center;
+    }
+}
 
 .singer {
     text-align: right;
 }
 
-@media only screen and (max-witdh: 375px) {
-    .members{
-        text-align: center;
-    }
-}
+
 
 /*----------------------------Gallery----------------------*/
 
@@ -240,7 +222,7 @@ footer h3 {
 /*----------------------------------contact us -------------------------*/
 
 .detail {
-    padding: 30px;
+   padding: 30px;
 }
 
 .alternative {
