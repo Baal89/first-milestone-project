@@ -109,33 +109,9 @@ article {
     position:relative;
     width: 100%;
     height: auto;
+    margin-bottom: 0;
 }
 
-/*-------------------
-@media only screen and (min-width: 360px) {
-    .center-block {
-        width: 330px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .center-block {
-        width: 720px;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .center-block {
-        width: 960px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .center-block {
-        width: 1140px;
-    }
-}
-*/
 
 /*----------------------------the band.html---------------------*/
 .band img {
@@ -143,8 +119,10 @@ article {
 }
 
 .band {
+    background-color: black;
     color: white;
-    padding-top: 50px
+    padding-top: 50px;
+    margin: 0;
 }
 
 .member {
