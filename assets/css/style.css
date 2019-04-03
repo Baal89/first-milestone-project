@@ -84,6 +84,25 @@ header {
     width: 100%;
 }
 
+@media (max-width: 767px) {
+    .landing {
+        height: 520px;
+    }
+}
+
+
+@media ( max-width: 767px) {
+    .landing-img {
+        height: 360px;
+        top: 80px;
+    }
+}
+
+@media ( min-width: 768px) {
+    .landing-img {
+        top: 20px;
+    }
+}
 
 article {
     background-color: black;
