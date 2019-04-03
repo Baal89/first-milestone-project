@@ -110,14 +110,16 @@ article {
 
 .bottom-heading p {
     padding: 30px;
+    margin-top: 20px;
 }
 
 .bottom-heading h5 {
     text-align: center;
+    margin-top: 20px;
 }
 
 .bottom-heading {
-    padding: 60px 0;
+    padding: 80px 0;
     color: white;
 }
 
