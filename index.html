@@ -13,8 +13,8 @@
 <!---------------------------------------index.html--------------------->
 
 <body>
-
-	<header class='container-fluid'>
+	<!------main nav----------------------------------------------------->
+	<header class='container-fluid main-nav'>
 		<div class='row no-gutter'>
 			<div class='col-md-4'>
 				<a href='index.html' class='mainheading'>
@@ -24,7 +24,7 @@
 			<div class='col'>
 				<ul id='nav' class='list-inline menucontainer'>
 					<li class='col-6 col-sm-3 list-inline-item'>
-						<a href='index.html'><span>Home</span></a>
+						<a href='#About-us.html'><span>About us</span></a>
 					</li>
 					<li class='col-6 col-sm-3 list-inline-item'>
 						<a href='#The-Band.html'><span>The Band</span></a>
@@ -39,6 +39,36 @@
 			</div>
 		</div>
 	</header>
+	<!-------------------------------------- hamburger nav------------------>
+	<div class="pos-f-t" style='text-align: center;'>
+		<div class="collapse" id="navbarToggleExternalContent">
+			<div class="bg-black p-4">
+				<a href='#About-us.html'>
+					<h4 class="text-white">About us</h4>
+				</a>
+				<a href='#The-Band.html'>
+					<h4 class="text-white">The band</h4>
+				</a>
+				<a href='#Gallery.html'>
+					<h4 class="text-white">Gallery</h4>
+				</a>
+				<a href='#Songs.html'>
+					<h4 class="text-white">Songs</h4>
+				</a>
+				<a href='#Contact-us.html'>
+					<h4 class="text-white">Contact us</h4>
+				</a>
+			</div>
+		</div>
+		<nav class="navbar navbar-dark bg-black">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+		</nav>
+	</div>
+
+
+	<!---------------------------------------------------------------------------------->
 
 	<section class='container-fluid no-gutter px-0 landing'>
 		<div class='row landing-img no-gutter '>
@@ -49,39 +79,18 @@
 	</section>
 
 	<article class='container-fluid no-gutter'>
+		<a name='About-us.html'></a>
 		<div class='container-fluid bottom-heading no-gutter'>
 			<div class='row'>
-				<div class='col-12 col-md-4'>
-					<h5>who we are</h5>
-					<p>We are the monkees a four member<strong><a href='#The-Band.html'> band</a></strong> that play rock and pop music. we got 50 years of experience around the world, and we are sure to deliver you the most incredible music experience you have nerver
-						had!
-					</p>
-				</div>
-				<div class='col-12 col-md-4'>
-					<h5>what we do</h5>
-					<p>We do concert around the world, but we are also actor perform in tv series and we play at wedding or birthday parties making your special day even better. Do not esitate to
-						<strong><a href='#Contact-us.html'>contact us!</a></strong></p>
-				</div>
-				<div class='col-12 col-md-4'>
-					<h5>Let's stay in touch</h5>
-					<p> In our web site you can find all the albums we made, covers and videos. In the <strong><a href='#Gallery.html'>Gallery section</a></strong> you will find everything you need to enjoys us, and remember, a lots of news are coming!
+				<div class='col-12'>
+					<h5>About us</h5>
+					<p>We are the Monkees a four member band that play rock and pop music.With 50 years of experience around the world, and we are sure to deliver you the most incredible music experience you have nerver had! We do concert around the world, but we are also
+						actor perform in tv series and we play at wedding or birthday parties making your special day even better. Do not esitate to contact us!
 					</p>
 				</div>
 			</div>
 		</div>
 	</article>
-
-	<div class='container-fluid no-gutter px-0 py-0'>
-		<div class='row no-gutter py-0'>
-			<div class='col-12 no-gutter py-0'>
-				<video controls id='my-video'>
-				<source src='assets/video/TheMonkees(1).mp4' type='video/mp4'>
-				<source src='assets/video/TheMonkees(1).mp4' type='video/ogg'>
-				your brower do not support the video tag
-			</video>
-			</div>
-		</div>
-	</div>
 
 	<!----------------------------The band.html-------------------------------->
 	<section class='container-fluid band no-gutter'>
@@ -121,9 +130,21 @@
 		</div>
 	</section>
 	<!------------------------------------------------Gallery.html---------------------------------------->
+	<div class='container-fluid no-gutter px-0 py-0'>
+		<div class='row no-gutter py-0'>
+			<div class='col-12 no-gutter py-0'>
+				<video controls id='my-video'>
+				<source src='assets/video/TheMonkees(1).mp4' type='video/mp4'>
+				<source src='assets/video/TheMonkees(1).mp4' type='video/ogg'>
+				your brower do not support the video tag
+			</video>
+			</div>
+		</div>
+	</div>
+
 	<a name='Gallery.html'></a>
-	<article style='background-color:white;'>
-		<div class='container album  main-article'>
+	<article class='container-fluid no-gutter px-0 album' style='background-color:white;'>
+		<div class='container album  main-article no-gutter px-0'>
 			<h1>Our Greatest success</h1>
 			<p>here you can find our greatest success covers and the new songs we made, with a lots of new content on the way</p>
 
@@ -168,7 +189,9 @@
 			</div>
 		</div>
 		<div class='container audio'>
-			<h2 class='audio-heading'>Our new song are here, listen us!</h2>
+			<a name='Songs.html'>
+				<h2 class='audio-heading'>Our new song are here, listen us!</h2>
+			</a>
 			<ul>
 				<li>
 					<p>Clarksville</p>
@@ -229,7 +252,7 @@
 					<button class="btn btn-primary" type="submit">Submit form</button>
 				</form>
 			</div>
-			
+
 		</div>
 	</section>
 
@@ -260,6 +283,7 @@
 			</div>
 		</div>
 	</footer>
+
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>

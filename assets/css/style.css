@@ -74,6 +74,14 @@ header {
     color: blue;
 }
 
+/*---------------------------------*/
+
+@media only screen and (max-width:1024px) {
+    header{
+        display: none;
+        padding-bottom: 0px;
+    }
+}
 
 
 /*--------------------------------------------section index.html----------------------*/
@@ -82,26 +90,6 @@ header {
     position: relative;
     margin: 55px 0 0;
     width: 100%;
-}
-
-@media (max-width: 767px) {
-    .landing {
-        height: 520px;
-    }
-}
-
-
-@media ( max-width: 767px) {
-    .landing-img {
-        height: 360px;
-        top: 80px;
-    }
-}
-
-@media ( min-width: 768px) {
-    .landing-img {
-        top: 20px;
-    }
 }
 
 article {
@@ -119,6 +107,7 @@ article {
 }
 
 .bottom-heading {
+    text-align: center;
     padding: 80px 0;
     color: white;
 }
@@ -167,7 +156,9 @@ article {
     width: 320px;
 }
 
-
+.album {
+    text-align: center;
+}
 
 .main-article {
     padding-top: 25px;
