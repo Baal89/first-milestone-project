@@ -3,6 +3,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     overflow-x:hidden;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -18,7 +20,7 @@ header {
     position: fixed;
     overflow: hidden;
     top: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .mainheading {
@@ -32,7 +34,7 @@ header {
 
 .mainheading:hover {
     text-decoration: none;
-    color: blue;
+    color: #007bff;
 }
 
 .list-inline-item:not(:last-child) {
@@ -53,6 +55,8 @@ header {
 
 
 
+
+
 #nav li {
     font-size: 22px;
     padding: 0;
@@ -70,7 +74,7 @@ header {
 }
 
 #nav li a:hover {
-    color: blue;
+    color: #007bff;
 }
 
 /*---------------------------------*/
@@ -86,20 +90,21 @@ header {
 .landing-img {
     position: relative;
     width: 100%;
-    top: 30px;
+    top: 55px;
 }
+
+
 /*----------------------------About us---------------------*/
 
 .bottom-heading h5 {
     text-align: center;
-    margin-top: 25px ;
 }
 
 .bottom-heading {
     text-align: center;
-    padding: 60px 0;
     color: black;
-    margin-top:60px;
+    margin-top: 100px;
+    padding: 0 65px;
 
 }
 
@@ -111,21 +116,28 @@ header {
 }
 
 .band {
-    padding:30px 0 120px 0;
+    padding:100px 0 150px 0;
     text-align: center;
     color: black;
 }
 
-
+@media only screen and (max-width:768px) {
+    .singer {
+        padding-top: 35px;
+    }
+}
 
 
 /*----------------------------Gallery----------------------*/
 
 #my-video {
+    text-align: center;
     position:relative;
-    width: 100%;
+    width: 75%;
     height: auto;
-    margin-bottom: 0;
+    padding: 120px 10px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 
@@ -144,8 +156,9 @@ header {
 }
 
 .audio {
-    padding: 20px;
+    padding: 50px;
     margin-bottom: 20px;
+    text-align: left;
 }
 
 .audio li {
@@ -160,6 +173,14 @@ header {
 .carousel-item img {
     height: 280px;
 }
+/*------------------------------------Tour-----------------------------*/
+
+.table-tour {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 100px 0;
+}
+
 
 /*----------------------------------contact us -------------------------*/
 
@@ -171,6 +192,7 @@ header {
 .alternative {
     margin-top: 45px;
     padding-top: 45px;
+    
 }
 
 .detail a:hover {
@@ -188,16 +210,10 @@ footer {
     text-align: center;
 }
 
-
-footer h3 {
-    margin-top: 20px;
-}
-
-
 .social-links li a i {
-    font-size: 30px;
-    padding: 20px;
-    margin: 20px 20px 0 20px;
+    font-size: 35px;
+    padding-top: 10px;
+    margin:   0 20px;
     color: white;
     transition: color 0.5s;
     -webkit-transition: color 0.5s;
@@ -207,5 +223,7 @@ footer h3 {
 
 
 .social-links li a i:hover {
-    color: blue;
+    color: #007bff;
 }
+
+
