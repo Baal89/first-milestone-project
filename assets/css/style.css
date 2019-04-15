@@ -5,6 +5,7 @@ body {
     overflow-x:hidden;
     margin: 0;
     padding: 0;
+    background-color: #1f1f1f;
 }
 
 
@@ -12,79 +13,6 @@ h5,
 h3 {
     font-weight: bold;
 }
-
-/*----------------------------------header---------------------*/
-
-header {
-    background-color: black;
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    z-index: 2;
-}
-
-.mainheading {
-    color: white;
-    text-decoration: none;
-    transition: color 0.5s;
-    -webkit-transition: color 0.5s;
-    -moz-transition: color 0.5s;
-    -o-transition: color 0.5s;
-}
-
-.mainheading:hover {
-    text-decoration: none;
-    color: #007bff;
-}
-
-.list-inline-item:not(:last-child) {
-    margin: 0;
-}
-
-.menucontainer  {
-    font-size: 0;
-    color: white;
-    margin:0;
-}
-
-.heading {
-    text-align: center;
-    margin: 1rem 0;
-    text-decoration: none;
-}
-
-
-
-
-
-#nav li {
-    font-size: 22px;
-    padding: 0;
-    margin: 2rem 0 0;
-    text-align: center;
-}
-
-#nav li a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.5s;
-    -webkit-transition: color 0.5s;
-    -moz-transition: color 0.5s;
-    -o-transition: color 0.5s;
-}
-
-#nav li a:hover {
-    color: #007bff;
-}
-
-@media(max-width:768px) {
-    header {
-        display: none;
-        z-index: -100;
-    }
-}
-
-
 
 /*-----------------------Hamburger nav bar----------*/
 .navbar{
@@ -104,7 +32,7 @@ header {
 		display: none;
 	}
 	.navbar .border-bottom{
-		border-bottom: 1px solid #dbdada !important
+		border-bottom: 1px solid #007bff !important
 	}
 }
 @media(min-width:768px) {
@@ -112,7 +40,7 @@ header {
 		display: none;
 	}
 	.navbar {
-		border-bottom: 1px solid #dbdada !important;
+		border-bottom: 1px solid #007bff !important;
 	}
 }
 
@@ -139,7 +67,7 @@ header {
 
 .bottom-heading {
     text-align: center;
-    color: black;
+    color: white;
     margin-top: 100px;
     padding: 0 65px;
 
@@ -155,7 +83,7 @@ header {
 .band {
     padding:100px 0 150px 0;
     text-align: center;
-    color: black;
+    color: white;
 }
 
 @media only screen and (max-width:768px) {
@@ -173,8 +101,8 @@ header {
     width: 75%;
     height: auto;
     padding: 120px 10px;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid #007bff;
+    border-bottom: 1px solid #007bff;
 }
 
 
@@ -184,6 +112,7 @@ header {
 
 .album {
     text-align: center;
+    color:white;
 }
 
 .main-article {
@@ -195,7 +124,6 @@ header {
 .audio {
     padding: 50px;
     margin-bottom: 20px;
-    text-align: left;
 }
 
 .audio li {
@@ -213,17 +141,22 @@ header {
 /*------------------------------------Tour-----------------------------*/
 
 .table-tour {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    padding: 100px 0;
+    border-top: 1px solid #007bff;
+    border-bottom: 1px solid #007bff;
+    padding: 100px 50px;
+    color: white;
 }
 
+.table-striped {
+    color: white;
+}
 
 /*----------------------------------contact us -------------------------*/
 
 .detail {
-   padding: 50px 0 80px 0;
+   padding: 50px 60px 80px 60px;
    color: white;
+   
 }
 
 .alternative {
@@ -245,6 +178,7 @@ footer {
     margin: 0;
     background-color: black;
     text-align: center;
+    border-top: 1 px solid #007bff;
 }
 
 .social-links li a i {
