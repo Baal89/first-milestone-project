@@ -124,7 +124,7 @@ h3 {
 .audio {
     padding: 100px 0;
     margin-bottom: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .audio li {
@@ -150,7 +150,7 @@ h3 {
 .table-tour {
     border-top: 1px solid #007bff;
     border-bottom: 1px solid #007bff;
-    padding: 200px 25px;
+    padding: 250px 25px;
     color: white;
 }
 
@@ -181,8 +181,8 @@ h3 {
 
 footer {
     color:white;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     background-color: black;
     text-align: center;
     border-top: 1 px solid #007bff;
