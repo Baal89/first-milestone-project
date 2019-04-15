@@ -12,8 +12,8 @@
 </head>
 <!---------------------------------------index.html--------------------->
 
-<body>
-	<!------header----------------------------------------------------->
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+	<!------header-----------------------------------------------------
 	<header class='container-fluid main-nav  px-0'>
 		<div class='row no-gutter'>
 			<div class='col-md-4 px-0'>
@@ -39,7 +39,52 @@
 			</div>
 		</div>
 	</header>
+	
+	-------------------------------------------------------------------->
 	<!-------------------------------------- hamburger nav------------------>
+	<nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+
+		<a class="logo-left" href="#">
+	      <img src="http://www.monkees.com/sites/all/themes/twitter_bootstrap/bootstrap/img/monkees-logo.png" alt='logo' style='height:50px'>
+	    </a>
+
+		<!-- hamburger icon -->
+		<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+		<!-- navbar links -->
+		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+			<ul class="navbar-nav mx-auto text-right">
+				<li class="nav-item">
+					<a class="nav-link" href="#About-us.html">About us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Video.html">Video</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Gallery.html">Gallery</a>
+				</li>
+
+				<a class="logo-middle" href="#">
+				<img src="http://www.monkees.com/sites/all/themes/twitter_bootstrap/bootstrap/img/monkees-logo.png" alt='logo' style='height:50px'>
+			</a>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#Songs.html">Songs</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#Tour.html">Tour</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#fContact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!------------------------------------------------------------------------landing image --------->
 	<a name='About-us.html'></a>
 	<section class='container-fluid px-0'>
 		<div class='row'>
@@ -214,12 +259,12 @@
 							<td>Windsor Guitar Night</td>
 							<td>Windsor</td>
 						</tr>
-							<tr>
+						<tr>
 							<th scope="row">Friday, July 26</th>
 							<td>Manchester Guitar Night</td>
 							<td>Manchester</td>
 						</tr>
-							<tr>
+						<tr>
 							<th scope="row">Saturday, July 27</th>
 							<td>Squire performing Art Center</td>
 							<td>Nottingham</td>
@@ -285,10 +330,34 @@
 			</div>
 		</div>
 	</footer>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
+	<script>
+		$('.navbar-nav>li>a').on('click', function() {
+			$('.navbar-collapse').collapse('hide');
+		});
+	</script>
+
+	<script>
+		$(document).ready(function() {
+			$(document).on('submit', '#newsletter-form', function() {
+				var x;
+				x = document.getElementById("email-input").value;
+				if (x == "") {
+					return false;
+				}
+				else {
+					document.getElementById("email-input").disabled = true;
+					document.getElementById("email-input").style.textTransform = "uppercase";
+					document.getElementById("email-input").style.textAlign = "center";
+					document.getElementById("email-input").value = "thank you";
+					return false;
+				}
+			});
+		});
+	</script>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </html>

@@ -77,13 +77,50 @@ header {
     color: #007bff;
 }
 
-/*---------------------------------*/
-
-@media only screen and (max-width:1024px) {
-    header{
+@media(max-width:768px) {
+    header {
         display: none;
+        z-index: -100;
     }
 }
+
+
+
+/*-----------------------Hamburger nav bar----------*/
+.navbar{
+	text-transform: uppercase;
+	font-family: "Rubik Mono One";
+}
+.navbar-dark {
+	background-color: #1f1f1f !important;
+}
+
+@media (max-width:767px) {
+	.navbar-dark {
+		background-color: #ffffff00 !important;
+	}
+
+	.logo-middle > img{
+		display: none;
+	}
+	.navbar .border-bottom{
+		border-bottom: 1px solid #dbdada !important
+	}
+}
+@media(min-width:768px) {
+	.logo-left > img{
+		display: none;
+	}
+	.navbar {
+		border-bottom: 1px solid #dbdada !important;
+	}
+}
+
+.logo-middle:hover{
+	transition: transform .6s;
+	transform: scale(0.9);
+}
+
 
 /*--------------------------------------------section index.html----------------------*/
 
@@ -185,7 +222,7 @@ header {
 /*----------------------------------contact us -------------------------*/
 
 .detail {
-   padding: 30px;
+   padding: 50px 0 80px 0;
    color: white;
 }
 
