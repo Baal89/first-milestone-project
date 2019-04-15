@@ -122,12 +122,14 @@ h3 {
 }
 
 .audio {
-    padding: 50px;
+    padding: 100px 0;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .audio li {
-    display: inline;
+    display:inline;
+    margin-right: 70px;
 }
 
 .audio-heading {
@@ -138,12 +140,17 @@ h3 {
 .carousel-item img {
     height: 280px;
 }
+
+.audio ul {
+     justify-content: center;
+}
+
 /*------------------------------------Tour-----------------------------*/
 
 .table-tour {
     border-top: 1px solid #007bff;
     border-bottom: 1px solid #007bff;
-    padding: 100px 50px;
+    padding: 200px 25px;
     color: white;
 }
 
