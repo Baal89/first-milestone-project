@@ -10,7 +10,8 @@ body {
 
 
 h5,
-h3 {
+h3,
+h2 {
     font-weight: bold;
 }
 
@@ -146,6 +147,11 @@ h3 {
 }
 
 /*------------------------------------Tour-----------------------------*/
+
+.tour-heading{
+    padding-bottom: 25px;
+    font-weight:bold;
+}
 
 .table-tour {
     border-top: 1px solid #007bff;
