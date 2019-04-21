@@ -41,7 +41,7 @@ h2 {
 		display: none;
 	}
 	.navbar {
-		border-bottom: 1px solid #007bff !important;
+		border-bottom: 1px solid #1f1f1f !important;
 	}
 }
 
@@ -102,8 +102,6 @@ h2 {
     width: 75%;
     height: auto;
     padding: 120px 10px;
-    border-top: 1px solid #007bff;
-    border-bottom: 1px solid #007bff;
 }
 
 
@@ -154,8 +152,6 @@ h2 {
 }
 
 .table-tour {
-    border-top: 1px solid #007bff;
-    border-bottom: 1px solid #007bff;
     padding: 250px 25px;
     color: white;
 }

@@ -31,23 +31,25 @@ to perform at wedding and birthday parties.
 4) as a fan I want to follow my favourite band on the new social media they got.
 5) as a fan I want to check the band history and members so I can know better my favourite band.
 6) as a event planner I want to contact them to play live at an event I am organising.
+7) as a fan I want to know the new date of the concert of the Moonkees.
 
 
 ## Features
 
 ##### existing features:
 
-1) in index.html the video allows the users to see the Monkees's new video.
-2) in the band.html the story: shows at the old and new users who are the Monkees.
-3) in gallery.html the carousel shows all the audio, video and images of the band.
-4) in contact.html the contact form allows fan or potential employer to contact the band.
+1) in About us section the new user can discover some of the story of the monkees and who are they.
+2) in Gallery section the video allow the user to see the video of the Monkees.
+3) in gallery section the carousel shows the new image of the band.
+4) in gallery section the audio tracks let the user listen all the new Monkees songs.
+5) in Tour section the user can have a look to all the new concert date of the monkees.
+6) in contact section the contact form allows fan or potential employer to contact the band.
 
 ##### features left to implemented:
 
-1) Index.html should show the new video realised of the Monkees.
-2) the band.html should also contain a story of how the band has been created.
-3) the gallery.html should also link and list the new concert date of the Monkees.
-4) the site should incorporate the Monkees logo.
+1) the about us section should also contain a story of how the band has been created.
+2) the tour section should also contain link to an online store to buy the tickets.
+
 
 ## Technologies Used
 
@@ -67,6 +69,8 @@ to perform at wedding and birthday parties.
   - to create the social media icons
 - [Markdown](https://daringfireball.net/projects/markdown/)
   - to write this readme file
+- [Javascript](https://www.javascript.com/)
+  -to let the hamburger menu toggle down.
 
 ## Testing
 
@@ -81,26 +85,34 @@ everything works well.
 DevTools of Google it turned out as an incredible help to fix any bug and to check 
 the site with different screen size.
 
+The nav-bar disappear on screen width less than 768px and an hamburger menu take is place.
+
 ##### users’ story:
 
 1) as a fan I want to see their new video so I can always watch my favourite band.
-   - `go to index.hmtl to see the latest video of the band`
+   - `go to gallery section to see the latest video of the band`
    
 2) as a potential fan I want to listen some of their music so I can confirm they are really amazing.
-   - `go to Gallery page`.
+   - `go to Gallery section`.
    - `click on of the play button to listen their music`.
    
 3) as a fan I want to follow my favourite band on the new social media they got.
-   - `go in any page in the footer section and click the social media icon`.
+   - `go in the footer section and click the social media icon`.
    
 4) as a fan I want to check the band history and members so I can know better my favourite band.
-   - `go in the band page and read about the band`.
+   - `go in about us section and read about the band`.
+
+5) as a fan I want to know when and where will be the new concert of the monkees.
+   - `go in tour section and check the dates`
    
 6) as a event planner I want to contact them to play live at an event I am organising.
    - `go in the contact page`
    - `fill out all fields in the form`
    - `click send`
    - `all fields need to be fill out if not users’ will see alert “please fill out this field"`
+   
+
+
 
 ## Deployment   
 
@@ -119,13 +131,7 @@ and for the [deployed site](https://baal89.github.io/first-milestone-project/).
 
 ## Credits
 
-##### text
 
-- the text for the band section has been copied from [Wikipedia](https://en.wikipedia.org/wiki/The_Monkees).
-- Peter Tork https://en.wikipedia.org/wiki/Peter_Tork
-- Davy Jones https://en.wikipedia.org/wiki/Micky_Dolenz
-- Michael Nesmith https://en.wikipedia.org/wiki/Michael_Nesmith
-- Micky Dolenz https://en.wikipedia.org/wiki/Davy_Jones_(musician)
 
 ##### media
 
